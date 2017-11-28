@@ -8,10 +8,6 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-
-# Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
@@ -21,3 +17,17 @@
 /yarn-error.log
 
 .byebug_history
+spec/examples.txt
+config/secret_env.local
+
+*.DS_Store
+/vendor/bundle
+REVISION
+public/assets/
+/public/packs
+/node_modules
+
+.envrc
+
+.idea
+*.sh
