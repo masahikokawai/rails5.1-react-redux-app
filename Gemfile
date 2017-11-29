@@ -34,6 +34,8 @@ gem 'haml-rails'
 # gem 'react-rails'
 gem 'react-rails', git: 'https://github.com/reactjs/react-rails.git', branch: 'master'
 
+gem 'ridgepole'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
